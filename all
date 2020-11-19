@@ -1,0 +1,17 @@
+
+[1mFrom:[0m /home/cmayes/Development/code/badges-and-schedules/conference_badges.rb:32 Object#printer:
+
+    [1;34m27[0m: [32mdef[0m [1;34mprinter[0m(list)
+    [1;34m28[0m:     all_badges = []
+    [1;34m29[0m:     all_room_assignments = []
+    [1;34m30[0m:     all_badges.append(batch_badge_creator(list))
+    [1;34m31[0m:     all_room_assignments.append(assign_rooms(list))
+ => [1;34m32[0m:     binding.pry
+    [1;34m33[0m:     all_badges.each [32mdo[0m |member|
+    [1;34m34[0m:         puts [31m[1;31m"[0m[31m#{member}[0m[31m[1;31m"[0m[31m[0m
+    [1;34m35[0m:     [32mend[0m
+    [1;34m36[0m:     all_room_assignments.each [32mdo[0m |member|
+    [1;34m37[0m:         puts [31m[1;31m"[0m[31m#{member}[0m[31m[1;31m"[0m[31m[0m
+    [1;34m38[0m:     [32mend[0m
+    [1;34m39[0m: [32mend[0m
+
